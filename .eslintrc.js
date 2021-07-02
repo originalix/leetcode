@@ -1,4 +1,4 @@
-const jestVariable = ['describe', 'it', 'test', 'expect', 'beforeEach']
+const jestVariable = ['describe', 'it', 'test', 'expect']
 const jestSetupAPI = ['beforeEach', 'beforeAll', 'afterEach', 'afterAll']
 const jestMap = [...jestVariable, ...jestSetupAPI].reduce(
   (pre, api) => ({ ...pre, [api]: 'readonly' }),
