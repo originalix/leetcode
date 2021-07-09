@@ -1,5 +1,5 @@
 import twoSum from './index'
-describe('two sum', () => {
+describe('1.Two Sum', () => {
   test('it should be [0, 1]', () => {
     expect(twoSum([2, 7, 11, 15], 9)).toStrictEqual([0, 1])
   })
